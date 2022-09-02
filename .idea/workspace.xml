@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65ff455f-b572-4b75-bda7-af70dfb89bda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.eleventy.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/README/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/posts/my-first-post/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/posts/my-second-post/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/src/_includes/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/test/hello.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.elev_enty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_11ty_docs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/demo-greeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/demo-greeter.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/my-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/my-element.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/components/badge/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/components/button/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/components/card/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/components/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/my-first-post/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/my-second-post/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_includes/base.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_includes/search.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_includes/sidebar.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/demo-greeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/my-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/components.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/components/badge.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/components/button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/components/card.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/components/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/my-first-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/my-second-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig_old.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Dt95E7l4Ari3DjwIlkzpsFx5mB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/a.lach/IdeaProjects/ds_11ty_docs",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\a.lach\\IdeaProjects\\ds_11ty_docs\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a.lach\IdeaProjects\ds_11ty_docs\src\posts\components" />
+      <recent name="C:\Users\a.lach\IdeaProjects\ds_11ty_docs\src\js" />
+      <recent name="C:\Users\a.lach\IdeaProjects\ds_11ty_docs" />
+      <recent name="C:\Users\a.lach\IdeaProjects\ds_11ty_docs\src" />
+      <recent name="C:\Users\a.lach\IdeaProjects\ds_11ty_docs\_site\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a.lach\IdeaProjects\ds_11ty_docs\src\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65ff455f-b572-4b75-bda7-af70dfb89bda" name="Changes" comment="" />
+      <created>1661507330024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661507330024</updated>
+      <workItem from="1661507331447" duration="12103000" />
+      <workItem from="1661753319853" duration="21833000" />
+      <workItem from="1661839625198" duration="16132000" />
+      <workItem from="1661925223198" duration="12447000" />
+      <workItem from="1662011105735" duration="28238000" />
+      <workItem from="1662098238449" duration="7675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

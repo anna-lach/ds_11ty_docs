@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Welcome to Sanoma Learning Design System</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<base href="/">
+<link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.81/dist/themes/light.css"/>
+<link rel="stylesheet" href="https://nordcdn.net/ds/css/1.4.1/nord.min.css" integrity="sha384-4n7JH/PweezbHxnqbwyHUj8rlAKy6TkOAk48Yn3KYNxGemTqVi6+hG+SPw6c4Vwc" crossorigin="anonymous" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.82/dist/components/badge/badge.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.82/dist/components/button/button.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.82/dist/components/card/card.js"></script>
+<script type="module" src="https://nordcdn.net/ds/components/1.14.3/index.js" integrity="sha384-Tdw2C87BJCkx7qWHmTIyO5YWc780wkFL1oT/386AiCcDvTd4xorxJaZhOIF4Fkrb" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="ds__sidebar ds-flow--xs">
+    <h1 class="ds-title">
+        <a href="/">Sanoma Learning Design System</a>
+    </h1>
+
+    <div>
+    <input class="ds-search" type="search" id="search" name="search" value="">
+</div>
+
+
+    <ul role="list">
+        
+        <li>
+            <a class="ds-link" href="/posts/my-first-post/">Getting started</a>
+        </li>
+        
+        <li>
+            <a class="ds-link" href="/posts/my-second-post/">Second</a>
+        </li>
+        
+        <li>
+            <a class="ds-link" href="/posts/components/">Components</a>
+        </li>
+        
+        <li>
+            <a class="ds-link" href="/posts/components/badge/">Badge</a>
+        </li>
+        
+        <li>
+            <a class="ds-link" href="/posts/components/button/">Button</a>
+        </li>
+        
+        <li>
+            <a class="ds-link" href="/posts/components/card/">Card</a>
+        </li>
+        
+    </ul>
+
+
+</nav>
+
+    <main>
+        <header>
+            <h1>Welcome to Sanoma Learning Design System</h1>
+        </header>
+        <style>
+.collections {
+  border-radius: 3px;
+  width: 50%;
+  padding: 16px 0;
+  box-shadow: 0 0 0 1px lightgray,0 1px 5px rgba(12, 12, 12, 0.05),0 0 40px rgba(12, 12, 12, 0.015);
+}
+</style>
+<p><demo-greeter  name="World"><template shadowroot="open"><style>
+    b { color: #041c52; }
+  </style><!--lit-part xwnoM4TMwfE=-->Hello <b><!--lit-part-->World<!--/lit-part--><slot></slot></b>!<!--/lit-part--></template> test</demo-greeter></p>
+<p><my-element><template shadowroot="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      background: lightgray;
+      border-radius: 3px;
+    }
+    
+    .planet {
+      color: var(--n-color-accent, blue);
+    }
+  </style><!--lit-part eslokFIvni8=-->
+      <span 
+        ><!--lit-node 0--><!--lit-part-->I am internally created<!--/lit-part-->
+        <span class="planet"><!--lit-part-->Web Component<!--/lit-part--></span>
+      </span>
+    <!--/lit-part--></template></my-element></p>
+<p>Light / dark mode</p>
+<div class="collections">
+<ul>
+<li>
+<p><a href="/posts/my-first-post/"> Getting started </a></p>
+</li>
+<li>
+<p><a href="/posts/my-second-post/"> Second </a></p>
+</li>
+<li>
+<p><a href="/posts/components/"> Components </a></p>
+</li>
+<li>
+<p><a href="/posts/components/badge/"> Badge </a></p>
+</li>
+<li>
+<p><a href="/posts/components/button/"> Button </a></p>
+</li>
+<li>
+<p><a href="/posts/components/card/"> Card </a></p>
+</li>
+</ul>
+</div>
+
+    </main>
+</body>
+</html>
