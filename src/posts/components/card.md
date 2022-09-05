@@ -6,13 +6,9 @@ eleventyNavigation:
   order: 3
 ---
 <style>
-nord-tab-group {
-    background: #FFFFFF;
-}
-
-nord-card {
-  margin: 16px 0;
-}
+  nord-card {
+    margin: 16px 0;
+  }
 </style>
 
 <nord-tab-group label="Title">

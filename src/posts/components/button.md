@@ -5,11 +5,7 @@ eleventyNavigation:
   key: Button
   order: 2
 ---
-<style>
-  nord-tab-group {
-      background: #FFFFFF;
-  }
-  
+<style>  
   h3 {
     margin-bottom: 16px;
   }

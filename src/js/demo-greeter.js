@@ -2,7 +2,7 @@ import {LitElement, html, css} from 'lit';
 
 class DemoGreeter extends LitElement {
     static styles = css`
-    b { color: #041c52; }
+    b { color: var(--n-tab-color); }
   `;
 
     static properties = {

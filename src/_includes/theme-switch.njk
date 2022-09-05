@@ -1,0 +1,22 @@
+<style>
+    {% include "./theme-switch.css" %}
+</style>
+
+<button type="button" class="theme-icon" aria-label="Toggle between dark and light mode">
+    <i
+            aria-hidden="true"
+            class="fas fa-moon"
+            title="Toggle between dark and light mode"
+    ></i>
+    <img class="icon-light" src="/assets/icons/forge-icons/idea-bulb-glow.svg" alt="arrow-down">
+    <i
+            aria-hidden="true"
+            class="fas fa-sun"
+            title="Toggle between dark and light mode"
+    ></i>
+    <img class="icon-dark" src="/assets/icons/forge-icons/idea-bulb.svg" alt="arrow-down">
+</button>
+
+<script type="text/javascript">
+    {% include "./theme-switch.js" %}
+</script>

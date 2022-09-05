@@ -7,13 +7,9 @@ eleventyNavigation:
 ---
 
 <style>
-nord-tab-group {
-    background: #FFFFFF;
-}
-
-h3 {
-  margin-bottom: 16px;
-}
+  h3 {
+    margin-bottom: 16px;
+  }
 </style>
 
 <nord-tab-group label="Title">

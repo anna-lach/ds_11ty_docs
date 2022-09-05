@@ -7,9 +7,9 @@ eleventyNavigation:
 ---
 
 <style>
-nord-tab-group {
-    background: #FFFFFF;
-}
+  sl-card {
+    margin-top: 16px;
+  }
 </style>
 
 Second page content

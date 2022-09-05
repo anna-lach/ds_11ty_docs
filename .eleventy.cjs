@@ -10,6 +10,10 @@ module.exports = function(eleventyConfig) {
         ],
     });
 
+    module.exports = function(eleventyConfig) {
+        eleventyConfig.addPlugin(syntaxHighlight);
+    };
+
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     let markdownIt = require("markdown-it");
@@ -20,6 +24,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownIt(options));
 
     eleventyConfig.addPassthroughCopy('./src/css');
+
+    eleventyConfig.addPassthroughCopy('./src/assets');
 
     // Return your Object options:
     return {

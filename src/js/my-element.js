@@ -10,7 +10,7 @@ export class MyElement extends LitElement {
     :host {
       display: inline-block;
       padding: 10px;
-      background: lightgray;
+      background: var(--menu-second-color);
       border-radius: 3px;
     }
     

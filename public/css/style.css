@@ -7,24 +7,30 @@ body {
     display: flex;
     height: 100vh;
     margin: 0;
-    background: #041c52;
-    color: #1f1f1f;
+    background: var(--second-background-color, #041c52);
+    color: var(--font-color);
 }
 
 main {
-    background-color: whitesmoke;
+    background-color: var(--background-color);
     width: 100%;
     margin-top: 16px;
     margin-right: 16px;
     border-radius: 8px 8px 0 0;
     padding: 36px 72px 0;
+    transition: background 300ms linear;
+}
+
+a {
+    color: var(--font-color);
 }
 
 nav {
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 260px;
-    background: #041c52;
+    background: var(--second-background-color);
 }
 
 nav > h1 {
@@ -71,7 +77,7 @@ nav > li {
 .ds-link--active::before {
     background: #668cff;
     content: "";
-    height: 41px; /*100%;*/
+    height: 41px;
     left: -16px;
     position: absolute;
     top: 0;
@@ -79,9 +85,41 @@ nav > li {
 }
 
 .ds-search {
-    background: rgba(138,174,255,.2);
+    background: var(--menu-second-color);
     padding: 8px;
     margin: 8px 16px;
     border-radius: 3px;
     border: none;
+}
+
+nord-tab-group {
+    background: var(--third-background-color);
+}
+
+pre {
+    background: var(--primary-color);
+    padding: 16px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.token.deleted {
+    background-color: hsl(350deg 100% 88% / 47%);
+}
+.token.inserted {
+    background-color: hsl(120deg 73% 75% / 35%);
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+    display: block;
 }
