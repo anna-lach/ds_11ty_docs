@@ -29,39 +29,68 @@
 </div>
 
 
-    <ul role="list">
+
+
+    
+    <ul>
         
-        <li>
-            <a class="ds-link" href="/posts/my-first-post/">Getting started</a>
-        </li>
+            <li id="/posts/my-first-post/" >
+                <a class="ds-link " href="/posts/my-first-post/">First</a>
+                
+            </li>
         
-        <li>
-            <a class="ds-link" href="/posts/my-second-post/">Second</a>
-        </li>
+            <li id="/posts/my-second-post/" >
+                <a class="ds-link " href="/posts/my-second-post/">Second</a>
+                
+            </li>
         
-        <li>
-            <a class="ds-link" href="/posts/components/">Components</a>
-        </li>
+            <li id="/posts/components/" >
+                <a class="ds-link  ds-link--active" href="/posts/components/">Components</a>
+                
+                    
+                        <ul role="list" class="ds-sublist  ds-sublist--active">
+                            
+                                <li>
+                                    <a class="ds-link" href="/posts/components/badge/">Badge</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="ds-link" href="/posts/components/button/">Button</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="ds-link ds-sub-link--active" href="/posts/components/card/">Card</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="ds-link" href="/posts/components/spinner/">Spinner</a>
+                                </li>
+                            
+                        </ul>
+                    
+                
+            </li>
         
-        <li>
-            <a class="ds-link" href="/posts/components/badge/">Badge</a>
-        </li>
-        
-        <li>
-            <a class="ds-link" href="/posts/components/button/">Button</a>
-        </li>
-        
-        <li>
-            <a class="ds-link ds-link--active" href="/posts/components/card/">Card</a>
-        </li>
-        
-        <li>
-            <a class="ds-link" href="/posts/components/spinner/">Spinner</a>
-        </li>
+            <li id="/posts/design-tokens/" >
+                <a class="ds-link " href="/posts/design-tokens/">Design Tokens</a>
+                
+                    
+                        <ul role="list" class="ds-sublist ">
+                            
+                                <li>
+                                    <a class="ds-link" href="/posts/design-tokens/color/">Color</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="ds-link" href="/posts/design-tokens/border/">Border</a>
+                                </li>
+                            
+                        </ul>
+                    
+                
+            </li>
         
     </ul>
-
-
 
     <style>
     :root:not(.light) {
@@ -137,18 +166,8 @@
 </style>
 
 <button type="button" class="theme-icon" aria-label="Toggle between dark and light mode">
-    <i
-            aria-hidden="true"
-            class="fas fa-moon"
-            title="Toggle between dark and light mode"
-    ></i>
-    <img class="icon-light" src="/assets/icons/forge-icons/idea-bulb-glow.svg" alt="arrow-down">
-    <i
-            aria-hidden="true"
-            class="fas fa-sun"
-            title="Toggle between dark and light mode"
-    ></i>
-    <img class="icon-dark" src="/assets/icons/forge-icons/idea-bulb.svg" alt="arrow-down">
+    <img class="icon-light" src="/assets/icons/bootstrap-icons/moon.svg" alt="moon">
+    <img class="icon-dark" src="/assets/icons/bootstrap-icons/sun.svg" alt="sun">
 </button>
 
 <script type="text/javascript">

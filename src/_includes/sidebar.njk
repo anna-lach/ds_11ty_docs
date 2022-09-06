@@ -5,31 +5,33 @@
 
     {% include "./search.njk" %}
 
-    <ul role="list">
+{#    <ul role="list">
         {% for post in collections.posts %}
         <li>
             <a class="ds-link{% if page.url == post.url %} ds-link--active{% endif %}" href="{{ post.url }}">{{ post.data.title }}</a>
         </li>
         {% endfor %}
-    </ul>
+    </ul>#}
 
-{#    {% set navPages = collections.all | eleventyNavigation("Pages") %}
+    {% set navPages = collections.all | eleventyNavigation("Pages") %}
     <ul>
         {% for entry in navPages %}
-            <li{% if entry.url == page.url %} class="active"{% endif %}>
-                <a class="ds-link{% if page.url == entry.url %} ds-link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+            <li id="{{ entry.url }}" {% if entry.url == page.url %} class="active"{% endif %}>
+                <a class="ds-link{% if page.url == entry.url %} ds-link--active{% endif %} {% if page.url.includes(entry.url) %} ds-link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
                 {% if entry.children | length %}
-                    <ul role="list">
-                        {% for child in entry.children %}
-                            <li>
-                                <a class="ds-link{% if page.url == child.url %} ds-sub-link--active{% endif %}" href="{{ child.url }}">{{ child.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
+                    {#<div class="ds-sublist-wrapper">#}
+                        <ul role="list" class="ds-sublist {% if page.url.includes(entry.url) %} ds-sublist--active{% endif %}">
+                            {% for child in entry.children %}
+                                <li>
+                                    <a class="ds-link{% if page.url == child.url %} ds-sub-link--active{% endif %}" href="{{ child.url }}">{{ child.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {#</div>#}
                 {% endif %}
             </li>
         {% endfor %}
-    </ul>#}
+    </ul>
 
     {% include "./theme-switch.njk" %}
 </nav>
